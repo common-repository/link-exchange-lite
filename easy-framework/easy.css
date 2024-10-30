@@ -1,0 +1,29 @@
+/* 
+*
+* Easy front-end framework
+*
+* Copyright (c) 2011 Alen Grakalic
+* http://easyframework.com/license.php
+*
+* supported by Templatica (http://templatica.com)
+* and Css Globe (http://cssglobe.com)
+*
+*/
+
+/*
+
+for more info about the strucure of this file 
+please read http://easyframework.com/documentation.php
+
+*/
+
+/* common */		
+	
+	.note, .success, .error{display:block;}
+	.error{color:#900;}
+	.success{color:#060;}
+	.note{font-weight:bold;}
+	.notvalid{border:1px solid #900 !important;}
+
+/* base */
+

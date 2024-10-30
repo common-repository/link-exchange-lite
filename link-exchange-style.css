@@ -1,0 +1,57 @@
+/* Form Table */
+table.link_exchange_form_table {
+	width: 100%;
+	border: none !important;
+}
+
+table.link_exchange_form_table td {
+	text-align: left;
+	vertical-align: top;
+	padding: 5px;
+	border: none !important;
+}
+
+table.link_exchange_form_table td input[type="text"], table.link_exchange_form_table td textarea {
+	width: 100%;
+}
+
+table.link_exchange_form_table td .description {
+	font-style: italic;
+	font-size: 80%;
+}
+
+table.link_exchange_links_table {
+	border: none;
+}
+
+table.link_exchange_links_table div.link_exchange_title {
+	padding: 2px 5px 2px 5px;
+}
+
+table.link_exchange_links_table img.link_exchange_banner {
+	margin-bottom: 3px;
+}
+
+table.link_exchange_links_table td {
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+}
+
+table.link_exchange_links_table tbody tr:nth-child(even) {
+	background: #FFFFFF;
+}
+
+table.link_exchange_links_table tbody tr:nth-child(odd) {
+	background: #FAFAFA;
+}
+
+table.link_exchange_links_table tbody tr:nth-child(even) div {
+	border: 1px solid #CCCCCC;
+	background: #FAFAFA;
+	padding: 2px 5px 2px 5px;
+}
+
+table.link_exchange_links_table tbody tr:nth-child(odd) div {
+	border: 1px solid #CCCCCC;
+	background: #FFFFFF;
+}
